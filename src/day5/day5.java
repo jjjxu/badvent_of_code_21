@@ -1,3 +1,5 @@
+package day5;
+
 import java.awt.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
