@@ -5,6 +5,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.StringTokenizer;
 
 class PairPoint {
@@ -15,17 +16,58 @@ class PairPoint {
 public class day7 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader input = new BufferedReader(new FileReader("day_7_input.txt"));
-		ArrayList<String> inputs = new ArrayList<>();
+		ArrayList<Integer> inputs = new ArrayList<>();
+		HashMap<Integer, Integer> map = new HashMap<>();
 		String readLine = input.readLine();
-		StringTokenizer st = new StringTokenizer(readLine);
-		
-		while (readLine != null) {
-			inputs.add(readLine);
+		StringTokenizer st = new StringTokenizer(readLine, ",");
+		int min = Integer.MAX_VALUE;
+		int max = Integer.MIN_VALUE;
+		while (st.hasMoreTokens()) {
+			int number = Integer.parseInt(st.nextToken());
+			inputs.add(number);
+			if (map.containsKey(number)) {
+				map.put(number, map.get(number) + 1);
+			} else {
+				map.put(number, 1);
+			}
 			
-			readLine = input.readLine();
-			
+			if (number < min) {
+				min = number;
+			}
+			if (number > max) {
+				max = number;
+			}
 		}
-		System.out.println(inputs.size());
+		
+		int minFuel = Integer.MAX_VALUE;
+		for (int i = min; i <= max; i++) {
+			int dist = 0;
+			for(Integer key : map.keySet()){
+				dist += Math.abs(key - i) * map.get(key);
+			}
+			if (dist < minFuel) {
+				minFuel = dist;
+			}
+		}
+		
+		System.out.println(minFuel);
+		
+		
+		int minFuel2 = Integer.MAX_VALUE;
+		for (int i = min; i <= max; i++) {
+			int dist = 0;
+			for(Integer key : map.keySet()){
+				int delta = Math.abs(key - i);
+				dist += delta * (delta + 1) / 2 * map.get(key);
+			}
+			if (dist < minFuel2) {
+				minFuel2 = dist;
+			}
+		}
+		
+		System.out.println(minFuel2);
+		
+		
 		
 	}
 	

@@ -22,3 +22,9 @@ My Python code makes use of `numpy` very heavily.
 |  4  |     17:04     |   865   | 18:56 (01:52) |   520   |
 |  5  |     10:07     |   670   | 22:47 (12:40) |  1241   |
 |  6  |     4:23      |   407   | 10:39 (6:16)  |   546   |
+|  7  |     6:43      |  2585   |  7:46 (1:03)  |  1026   |
+
+Notes: 
+
+- Day 1 started late
+- Day 7 had a submission issue because servers were overloaded
