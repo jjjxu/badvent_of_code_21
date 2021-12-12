@@ -5,9 +5,9 @@ Jerry's really horrendous at writing clean code. Or code at all.
 
 
 ## more details
-I wrote most of this project first in Java first for speed, and then rewrote it in Python (and potentially other languages to learn). 
+I wrote most of this project first in Java first for speed, and then rewrote it in Python (and potentially other languages to learn). Day 12 was test-speed-written in Python to test how competitive/feasible it was.
 
-My initial speed (Java) code has not been refactored in any way - it is left as-is. 
+My initial speed code has not been refactored in any way - it is left as-is. 
 
 My Python code makes use of `numpy` very heavily. 
 
