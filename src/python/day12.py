@@ -34,7 +34,7 @@ def visit(room, visited, big_visited, small_visited, count, double_visit):
                     copy_visited[i] = 1
                     retCount += visit(i, visited, big_visited, copy_visited, count, double_visit)
                 # to do part a, comment this line out
-                if not double_visit:
+                elif not double_visit:
                     retCount += visit(i, visited, big_visited, copy_visited, count, True)
 
             elif curr_room.upper() == curr_room:
