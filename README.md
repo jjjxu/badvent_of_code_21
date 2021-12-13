@@ -5,7 +5,8 @@ Jerry's really horrendous at writing clean code. Or code at all.
 
 
 ## more details
-I wrote most of this project first in Java first for speed, and then rewrote it in Python (and potentially other languages to learn). Day 12 was test-speed-written in Python to test how competitive/feasible it was.
+I wrote most of this project first in Java first for speed, and then rewrote it in Python (and potentially other 
+languages to learn). Day 12 onwards was written in Python.
 
 My initial speed code has not been refactored in any way - it is left as-is. 
 
@@ -26,8 +27,9 @@ My Python code makes use of `numpy` very heavily.
 |  8  |     7:40      |   982   | 1:02:09 (54:29) |  2205   |
 |  9  |     20:03     |  4713   |  32:49 (12:46)  |  2181   |
 | 10  |     4:56      |   223   |  10:28 (05:32)  |   273   |
-| 11  |     20:00     |  1263   |  23:45 (3:45)   |  1341   |
+| 11  |     20:00     |  1263   |  23:45 (03:45)  |  1341   |
 | 12  |     28:02     |  2493   |  31:23 (03:21)  |  1316   |
+| 13  |     11:09     |   498   |  20:26 (09:17)  |   923   |
 
 Notes: 
 
