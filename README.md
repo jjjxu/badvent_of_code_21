@@ -37,6 +37,7 @@ My Python code makes use of `numpy` very heavily.
 | 18  |    1:43:58    |  1280   | 1:51:36 (07:38) |  1251   |
 | 19  | too difficult |    -    |  too difficult  |    -    |
 | 20  |     52:02     |  1774   |  59:48 (07:46)  |  1812   |
+| 21  |     12:36     |  1068   | 1:04:00 (51:24) |  1424   |
 
 Notes: 
 
