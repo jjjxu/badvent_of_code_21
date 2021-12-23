@@ -39,10 +39,12 @@ My Python code makes use of `numpy` very heavily.
 | 20  |     52:02     |  1774   |  59:48 (07:46)  |    1812     |
 | 21  |     12:36     |  1068   | 1:04:00 (51:24) |    1424     |
 | 22  |     08:08     |   293   |    ~18 hours    | brute force |
+| 23  |     49:48     |   745   | 1:02:07 (12:19) |     67      |
 
 Notes: 
 
 - Day 1 started late
 - Day 7 had a submission issue because servers were overloaded
 - Day 19 was too difficult, did not solve within 24hrs. 
-- Day 22 part 2 was a brute force. Suffice to say that it's the most lopsided finish I've seen in AoC for a while. 
+- Day 22 part 2 was a brute force. Suffice to say that it's the most lopsided finish I've seen in AoC for a while.
+- Day 23 was manually solved because I forgot how to code entirely. 
