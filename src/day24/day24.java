@@ -1,4 +1,4 @@
-package day23;
+package day24;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -6,10 +6,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class day23 {
+public class day24 {
 	
 	public static void main(String[] args) throws IOException {
-		BufferedReader input = new BufferedReader(new FileReader("day_23_input.txt"));
+		BufferedReader input = new BufferedReader(new FileReader("day_24_input.txt"));
 		
 		String readLine = input.readLine();
 		StringTokenizer st = new StringTokenizer(readLine);
